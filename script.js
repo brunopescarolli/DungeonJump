@@ -21,7 +21,7 @@ const loop = setInterval(() =>{
         character.style.animation = 'none'
         character.style.bottom = `${characterPosition}px`
 
-        character.src = '../images/sonic-end.png'
+        character.src = './images/sonic-end.png'
 
         clearInterval(loop)
     }
